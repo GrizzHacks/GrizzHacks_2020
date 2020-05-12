@@ -15,6 +15,7 @@ I am using FancyBox for some of the animations, like:
 
 In addition, using Owl Carousel for the sliders on the site.
 The site uses fontawesome icons for the social media icons, and google fonts because they looked nice :)
+
 -----------------------------------------------------------------------------------------------------
 ### Major Things that need to be done
 - [ ] Change the colors to match the GH5 color pallete
