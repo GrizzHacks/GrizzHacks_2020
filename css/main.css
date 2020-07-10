@@ -557,8 +557,17 @@ top: -8px;
 	Sponsorship
 ==========================================*/
 
+#sponsors {
+  padding-bottom: 0;
+}
+
 .mt-20 {
   margin-top: 20px;
+}
+
+.img-max-size {
+  max-width: 50%;
+  max-height: 200px;
 }
 
 /*=========================================
