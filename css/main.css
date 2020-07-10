@@ -35,6 +35,10 @@ iframe {
     border: 0;
 }
 
+.sponsor {
+  color: #6a737b
+}
+
 a, a:focus, a:hover {
     text-decoration: none;
     outline: 0;
@@ -549,6 +553,13 @@ top: -8px;
   text-transform: uppercase;
 }
 
+/*=========================================
+	Sponsorship
+==========================================*/
+
+.mt-20 {
+  margin-top: 20px;
+}
 
 /*=========================================
 	Contact Us
