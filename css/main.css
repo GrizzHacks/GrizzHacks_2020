@@ -8,7 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 21px;
 	font-size: 13px;
-    color: #6a737b;
+    color: #262626;
 }
 
 ol, ul {
@@ -36,7 +36,7 @@ iframe {
 }
 
 .sponsor {
-  color: #6a737b
+  color: #000
 }
 
 a, a:focus, a:hover {
@@ -69,7 +69,7 @@ h4, h5, h6 {
 }
 
 span.color {
-	color: #0feb9e;
+	color: #449DD1;
 }
 
 body > section,
@@ -80,7 +80,7 @@ body > section,
 .sec-title {}
 
 .sec-title h2 {
-  color: #0eb493;
+  color: #0A1172;
   font-size: 28px;
   font-weight: 800;
   text-transform: uppercase;
@@ -143,9 +143,17 @@ body > section,
 /*=========================================
 	Header
 ==========================================*/
+body{min-height:200vh;}
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-default.scrolled{
+  background:#000;
+}
 
 #navigation {
-  background-color: rgba(16, 22, 54, 0.2);
+  /* background-color: #0A1172; */
   border: 0 none;
   margin: 0;
 
@@ -172,7 +180,7 @@ body > section,
 .navbar-nav li a:focus,
 .navbar-nav li a:hover {
 	background-color: transparent;
-	border-top: 1px solid #32B0EE;
+	border-top: 1px solid #0A1172;
 	color: #fff;
 }
 
@@ -189,6 +197,10 @@ body > section,
 
 #slider .carousel-inner .item {
   background-size: cover;
+}
+
+.backgroundimage{
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.9)), url('../img/building.jpg');
 }
 
 .carousel-caption {
@@ -444,6 +456,13 @@ top: -8px;
 .team-row-one{
   padding-bottom: 20px;
 } */
+
+.picture-style {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
 .center-aligned-team{
   display: flex;
   justify-content: center;
@@ -678,7 +697,7 @@ label.error {
 
 
 .footer {
-  background-color: #1ea78d;
+  background-color: #0A1172;
   border-top: 5px solid #062033;
   color: #fff;
 }

@@ -2,367 +2,449 @@
 <!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-    <head>
-    	<!-- meta charec set -->
-        <meta charset="utf-8">
-		<!-- Always force latest IE rendering engine or request Chrome Frame -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<!-- Page Title -->
-        <title>GrizzHacks</title>
-		<!-- Meta Description -->
-        <meta name="description" content="Hackathon thru MLH">
-        <meta name="keywords" content="Student-run Hackathon at Oakland Univeristy">
-        <meta name="author" content="Jasvant Dosanjh">
-		<!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
 
-		<!-- Google Font -->
+<head>
+  <!-- meta charec set -->
+  <meta charset="utf-8">
+  <!-- Always force latest IE rendering engine or request Chrome Frame -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- Page Title -->
+  <title>GrizzHacks</title>
+  <!-- Meta Description -->
+  <meta name="description" content="Hackathon thru MLH">
+  <meta name="keywords" content="Student-run Hackathon at Oakland Univeristy">
+  <meta name="author" content="Jasvant Dosanjh">
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <script src="js/nav-helper.js"></script>
 
-		<!-- CSS
+  <!-- Google Font -->
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
 		================================================== -->
-		<!-- Fontawesome Icon font -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-		<!-- Twitter Bootstrap css -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- jquery.fancybox  -->
-        <link rel="stylesheet" href="css/jquery.fancybox.css">
-		<!-- animate -->
-        <link rel="stylesheet" href="css/animate.css">
-		<!-- Main Stylesheet -->
-        <link rel="stylesheet" href="css/main.css">
-		<!-- media-queries -->
-        <link rel="stylesheet" href="css/media-queries.css">
+  <!-- Fontawesome Icon font -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Twitter Bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- jquery.fancybox  -->
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <!-- animate -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- media-queries -->
+  <link rel="stylesheet" href="css/media-queries.css">
 
-		<!-- Modernizer Script for old Browsers -->
-        <script src="js/modernizr-2.6.2.min.js"></script>
+  <!-- Modernizer Script for old Browsers -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <script>
+    $(window).scroll(function() {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    });
+  </script>
+</head>
 
-    </head>
+<body id="body">
 
-    <body id="body">
+  <!-- preloader -->
+  <div id="preloader">
+    <img src="img/preloader.gif" alt="Preloader">
+  </div>
+  <!-- end preloader -->
 
-		<!-- preloader -->
-		<div id="preloader">
-			<img src="img/preloader.gif" alt="Preloader">
-		</div>
-		<!-- end preloader -->
-
-        <!--
+  <!--
         Fixed Navigation
         ==================================== -->
-        <header id="navigation" class="navbar-fixed-top navbar">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars fa-2x"></i>
-                    </button>
-					<!-- /responsive nav button -->
+  <header id="navigation" class="navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- responsive nav button -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <!-- /responsive nav button -->
 
-					<!-- logo -->
-                    <a class="navbar-brand" href="#body">
+        <!-- logo -->
+        <!-- <a class="navbar-brand" href="#body">
 						<h1 id="logo">
-							<img src="" alt="GrizzHacks">
+							<img src="img/logo.png" width="50px" alt="GrizzHacks">
 						</h1>
-					</a>
-					<!-- /logo -->
-                </div>
+					</a> -->
+        <!-- /logo -->
+      </div>
 
-				<!-- main nav -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <ul id="nav" class="nav navbar-nav">
-                        <li class="current"><a href="#body">Home</a></li>
-                        <li><a href="#features">Register</a></li>
-                        <li><a href="#team">Team</a></li>
-                        <li><a href="http://google.com">Contact</a></li>
-                    </ul>
-                </nav>
-				<!-- /main nav -->
+      <!-- main nav -->
+      <nav class="collapse navbar-collapse navbar-right" role="navigation">
+        <ul id="nav" class="nav navbar-nav">
+          <li class="current"><a href="#body">Home</a></li>
+          <li><a href="#features">Register</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="http://google.com">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- /main nav -->
 
-            </div>
-        </header>
-        <!--
+    </div>
+  </header>
+  <!--
         End Fixed Navigation
         ==================================== -->
 
 
 
-        <!--
+  <!--
         Home Slider
         ==================================== -->
 
-		<section id="slider">
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <section id="slider">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-				<!-- Indicators bullet -->
-				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				</ol>
-				<!-- End Indicators bullet -->
+      <!-- Indicators bullet -->
+      <ol class="carousel-indicators">
+      </ol>
+      <!-- End Indicators bullet -->
 
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
 
-					<!-- single slide -->
-					<div class="item active" style="background-image: url(img/banner.jpg);">
-						<div class="carousel-caption">
-							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Welcome to<span> GrizzHacks</span>!</h2>
-							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/innovative</span> Student-run hackathon.</h3>
-							<p data-wow-duration="1000ms" class="wow slideInRight animated">The GrizzHacks student team is passionate about technology
-								and organizing engaging events on Oakland University's campus. Contact us to know more or to get involved!</p>
+        <!-- single slide -->
+        <!-- background-image: url(img/building.jpg); -->
+        <div class="item active backgroundimage" style="">
+          <div class="carousel-caption">
+            <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Welcome to<span> GrizzHacks</span>!</h2>
+            <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/innovative</span> Student-run hackathon.</h3>
+            <p data-wow-duration="1000ms" class="wow slideInRight animated">The GrizzHacks student team is passionate about technology
+              and organizing engaging events on Oakland University's campus. Contact us to know more or to get involved!</p>
 
-							<ul class="social-links text-center">
-								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+            <ul class="social-links text-center">
+              <li><a href="http://twitter.com/grizzhacks"><i class="fa fa-twitter fa-lg"></i></a></li>
+              <li><a href="http://facebook.com/grizzhacks"><i class="fa fa-facebook fa-lg"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/grizzhacks/"><i class="fa fa-linkedin fa-lg"></i></a></li>
 
-							</ul>
-						</div>
-					</div>
-					<!-- end single slide -->
+            </ul>
+          </div>
+        </div>
+        <!-- end single slide -->
 
-					<!-- single slide -->
-					<div class="item" style="background-image: url(img/banner.jpg);">
-						<div class="carousel-caption">
-							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Welcome to<span>
-									GrizzHacks</span>!</h2>
-							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/innovative</span> Student-run
-								hackathon.</h3>
-							<p data-wow-duration="1000ms" class="wow slideInRight animated">We welcome you to Oakland University!</p>
+      </div>
+      <!-- End Wrapper for slides -->
 
-							<ul class="social-links text-center">
-								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end single slide -->
+    </div>
+  </section>
 
-				</div>
-				<!-- End Wrapper for slides -->
-
-			</div>
-		</section>
-
-        <!--
+  <!--
         End Home SliderEnd
         ==================================== -->
 
-        <!--
+  <!--
         Features
         ==================================== -->
 
-		<section id="features" class="features">
-			<div class="container">
-				<div class="row">
+  <section id="features" class="features">
+    <div class="container">
+      <div class="row">
 
-					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-						<h2>What is a Hackathon?</h2>
-						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-					</div>
+        <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+          <h2>What is a Hackathon?</h2>
+          <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+        </div>
 
-					<!-- service item -->
-					<div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
-						<div class="service-item">
-							<div class="service-icon">
-								<i class="fa fa-github fa-2x"></i>
-							</div>
+        <!-- service item -->
+        <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
+          <div class="service-item">
+            <div class="service-icon">
+              <i class="fa fa-github fa-2x"></i>
+            </div>
 
-							<div class="service-desc">
-								<h3>Learning</h3>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-							</div>
-						</div>
-					</div>
-					<!-- end service item -->
+            <div class="service-desc">
+              <h3>Learning</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+            </div>
+          </div>
+        </div>
+        <!-- end service item -->
 
-					<!-- service item -->
-					<div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-						<div class="service-item">
-							<div class="service-icon">
-								<i class="fa fa-pencil fa-2x"></i>
-							</div>
+        <!-- service item -->
+        <div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+          <div class="service-item">
+            <div class="service-icon">
+              <i class="fa fa-pencil fa-2x"></i>
+            </div>
 
-							<div class="service-desc">
-								<h3>Development</h3>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-							</div>
-						</div>
-					</div>
-					<!-- end service item -->
+            <div class="service-desc">
+              <h3>Development</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+            </div>
+          </div>
+        </div>
+        <!-- end service item -->
 
-					<!-- service item -->
-					<div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
-						<div class="service-item">
-							<div class="service-icon">
-								<i class="fa fa-bullhorn fa-2x"></i>
-							</div>
+        <!-- service item -->
+        <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
+          <div class="service-item">
+            <div class="service-icon">
+              <i class="fa fa-bullhorn fa-2x"></i>
+            </div>
 
-							<div class="service-desc">
-								<h3>Career Building</h3>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-							</div>
-						</div>
-					</div>
-					<!-- end service item -->
+            <div class="service-desc">
+              <h3>Career Building</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+            </div>
+          </div>
+        </div>
+        <!-- end service item -->
 
-				</div>
-			</div>
-		</section>
+      </div>
+    </div>
+  </section>
 
-        <!--
+  <!--
         End Features
         ==================================== -->
 
-        <!--
+  <!--
         Meet Our Team
         ==================================== -->
 
-		<section id="team" class="team">
-			<div class="container">
-				<div class="row">
-					<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
-						<h2>Meet Our Team</h2>
-						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-					</div>
+  <section id="team" class="team">
+    <div class="container">
+      <div class="row">
+        <div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+          <h2>Meet Our Team</h2>
+          <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+        </div>
 
-          <div class="team-row-one">
+        <div class="team-row-one">
           <!-- single member -->
           <div class="col-sm">
 
-          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-              <img src="https://placekitten.com/g/150/150" alt="Team Member" class="img-responsive">
-            <h4>Allison Broski</h4>
-            <span>President</span>
-          </figure>
-        </div>
+            <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+              <img src="img/team/allison.jpg" alt="Team Member" class="img-responsive picture-style">
+              <h4>Allison Broski</h4>
+              <span>President</span>
+            </figure>
+          </div>
           <!-- end single member -->
 
           <!-- single member -->
           <div class="col-sm">
 
-          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-              <img src="https://placekitten.com/g/150/150" alt="Team Member" class="img-responsive">
-            <h4>Andrew Dimmer</h4>
-            <span>Co-director</span>
-          </figure>
-        </div>
+            <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+              <img src="img/team/andrew.png" alt="Team Member" class="img-responsive picture-style">
+              <h4>Andrew Dimmer</h4>
+              <span>Co-director</span>
+            </figure>
+          </div>
           <!-- end single member -->
 
           <!-- single member -->
           <div class="col-sm">
 
-          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-              <img src="https://placekitten.com/g/150/150" alt="Team Member" class="img-responsive">
-            <h4>Shriyash Jalukar</h4>
-            <span>Co-director</span>
-          </figure>
-        </div>
+            <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+              <img src="img/team/shriyash.jpg" alt="Team Member" class="img-responsive picture-style">
+              <h4>Shriyash Jalukar</h4>
+              <span>Co-director</span>
+            </figure>
+          </div>
           <!-- end single member -->
 
           <!-- single member -->
           <div class="col-sm">
 
-          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-              <img src="https://placekitten.com/g/150/150" alt="Team Member" class="img-responsive">
-            <h4>Nicholas Sinistaj</h4>
-            <span>Co-director</span>
-          </figure>
-        </div>
+            <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+              <img src="img/team/nicholas.jpg" alt="Team Member" class="img-responsive picture-style">
+              <h4>Nicholas Sinistaj</h4>
+              <span>Co-director</span>
+            </figure>
+          </div>
           <!-- end single member -->
 
           <!-- single member -->
           <div class="col-sm">
 
-          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-              <img src="https://placekitten.com/g/150/150" alt="Team Member" class="img-responsive">
-            <h4>Nicholas Sinistaj</h4>
-            <span>Co-director</span>
-          </figure>
-        </div>
+            <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+              <img src="img/team/kevin.png" alt="Team Member" class="img-responsive picture-style">
+              <h4>Kevin Huffman</h4>
+              <span>Team Member</span>
+            </figure>
+          </div>
           <!-- end single member -->
 
-				</div>
-			</div>
-		</section>
+          <!-- single member -->
+          <div class="col-sm">
 
-        <!--
+            <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+              <img src="img/team/asiah.png" alt="Team Member" class="img-responsive picture-style">
+              <h4>Asiah Moore</h4>
+              <span>Team Member</span>
+            </figure>
+          </div>
+          <!-- end single member -->
+
+          <!-- single member -->
+          <div class="col-sm">
+
+            <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+              <img src="img/team/jasvant.png" alt="Team Member" class="img-responsive picture-style">
+              <h4>Jasvant Singh Dosanjh</h4>
+              <span>Team Member</span>
+            </figure>
+          </div>
+          <!-- end single member -->
+
+
+        </div>
+      </div>
+  </section>
+
+  <!--
         End Meet Our Team
         ==================================== -->
 
 
-        <!--
+  <!--
         Start Meet Our Advisors
         ==================================== -->
 
-        <section id="team" class="team">
-          <div class="container">
-            <div class="row">
-              <div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
-                <h2>Meet Our Advisors</h2>
-                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-              </div>
+  <section id="team" class="team">
+    <div class="container">
+      <div class="row">
+        <div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+          <h2>Meet Our Advisors</h2>
+          <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+        </div>
 
-              <!-- single member -->
-              <div class="col-sm">
+        <!-- single member -->
+        <div class="col-sm">
 
-              <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-                  <img src="https://placekitten.com/g/150/150" alt="Team Member" class="img-responsive">
-                <h4>Allison Broski</h4>
-              </figure>
-            </div>
-              <!-- end single member -->
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/ganesan.png" alt="Team Member" class="img-responsive picture-style">
+            <h4>Dr.Subramaniam Ganesan</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
 
-              <!-- single member -->
-              <div class="col-sm">
+        <!-- single member -->
+        <div class="col-sm">
 
-              <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-                  <img src="https://placekitten.com/g/150/150" alt="Team Member" class="img-responsive">
-                <h4>Andrew Dimmer</h4>
-              </figure>
-            </div>
-              <!-- end single member -->
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/emma.jpg" alt="Team Member" class="img-responsive picture-style">
+            <h4>Emma Atkinson</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
 
-              <!-- single member -->
-              <div class="col-sm">
+        <!-- single member -->
+        <div class="col-sm">
 
-              <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-                  <img src="https://placekitten.com/g/150/150" alt="Team Member" class="img-responsive">
-                <h4>Shriyash Jalukar</h4>
-              </figure>
-            </div>
-              <!-- end single member -->
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/althea.jpg" alt="Team Member" class="img-responsive picture-style">
+            <h4>Althea Bullock</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
 
-              <!-- single member -->
-              <div class="col-sm">
+        <!-- single member -->
+        <div class="col-sm">
 
-              <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-                  <img src="https://placekitten.com/g/150/150" alt="Team Member" class="img-responsive">
-                <h4>Nicholas Sinistaj</h4>
-              </figure>
-            </div>
-              <!-- end single member -->
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/adam.jpg" alt="Team Member" class="img-responsive picture-style">
+            <h4>Adam McNeilly</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
 
-              <!-- single member -->
-              <div class="col-sm">
+        <!-- single member -->
+        <div class="col-sm">
 
-              <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-                  <img src="https://placekitten.com/g/150/150" alt="Team Member" class="img-responsive">
-                <h4>Nicholas Sinistaj</h4>
-              </figure>
-            </div>
-              <!-- end single member -->
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/anthony.png" alt="Team Member" class="img-responsive picture-style">
+            <h4>Anthony Calandra</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
 
-          </div>
-        </section>
+        <!-- single member -->
+        <div class="col-sm">
 
-            <!--
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/arpan.jpg" alt="Team Member" class="img-responsive picture-style">
+            <h4>Arpan Rughani</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
+
+        <!-- single member -->
+        <div class="col-sm">
+
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/mackenzie.jpg" alt="Team Member" class="img-responsive picture-style">
+            <h4>Mackenzie Hill</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
+
+        <!-- single member -->
+        <div class="col-sm">
+
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/kristiana.jpg" alt="Team Member" class="img-responsive picture-style">
+            <h4>Kristiana Bozinovski</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
+
+        <!-- single member -->
+        <div class="col-sm">
+
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/matt.jpg" alt="Team Member" class="img-responsive picture-style">
+            <h4>Matt Brafman</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
+
+        <!-- single member -->
+        <div class="col-sm">
+
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/rohit.jpg" alt="Team Member" class="img-responsive picture-style">
+            <h4>Rohit Timmagi</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
+
+        <!-- single member -->
+        <div class="col-sm">
+
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/sagun.png" alt="Team Member" class="img-responsive picture-style">
+            <h4>Sagun Sedai</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
+
+        <!-- single member -->
+        <div class="col-sm">
+
+          <figure class="team-member center-aligned-team col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <img src="img/advisors/spenser.jpg" alt="Team Member" class="img-responsive picture-style">
+            <h4>Spenser Solys</h4>
+          </figure>
+        </div>
+        <!-- end single member -->
+
+      </div>
+  </section>
+
+  <!--
             End Meet Our Advisors
             ==================================== -->
 
@@ -371,341 +453,341 @@
 
 
 
-		<!--
+  <!--
         Some fun facts
         ==================================== -->
 
-		<section id="facts" class="facts">
-			<div class="parallax-overlay">
-				<div class="container">
-					<div class="row number-counters">
+  <section id="facts" class="facts">
+    <div class="parallax-overlay">
+      <div class="container">
+        <div class="row number-counters">
 
-						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-							<h2>GrizzHacks Fun Facts</h2>
-							<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-						</div>
+          <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+            <h2>GrizzHacks Fun Facts</h2>
+            <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+          </div>
 
-						<!-- first count item -->
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-							<div class="counters-item">
-								<i class="fa fa-clock-o fa-3x"></i>
-								<strong data-to="300">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p> Average attendance </p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-							<div class="counters-item">
-								<i class="fa fa-users fa-3x"></i>
-								<strong data-to="24">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p> Hours </p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-							<div class="counters-item">
-								<i class="fa fa-users fa-3x"></i>
-								<strong data-to="0">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p> Cost </p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-							<div class="counters-item">
-								<i class="fa fa-trophy fa-3x"></i>
-								<strong data-to="6000">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p> Dollars in Prizes </p>
-							</div>
-						</div>
-						<!-- end first count item -->
+          <!-- first count item -->
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+            <div class="counters-item">
+              <i class="fa fa-clock-o fa-3x"></i>
+              <strong data-to="300">0</strong>
+              <!-- Set Your Number here. i,e. data-to="56" -->
+              <p> Average attendance </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+            <div class="counters-item">
+              <i class="fa fa-users fa-3x"></i>
+              <strong data-to="24">0</strong>
+              <!-- Set Your Number here. i,e. data-to="56" -->
+              <p> Hours </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+            <div class="counters-item">
+              <i class="fa fa-users fa-3x"></i>
+              <strong data-to="0">0</strong>
+              <!-- Set Your Number here. i,e. data-to="56" -->
+              <p> Cost </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+            <div class="counters-item">
+              <i class="fa fa-trophy fa-3x"></i>
+              <strong data-to="6000">0</strong>
+              <!-- Set Your Number here. i,e. data-to="56" -->
+              <p> Dollars in Prizes </p>
+            </div>
+          </div>
+          <!-- end first count item -->
 
-					</div>
-				</div>
-			</div>
-		</section>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!--
+  <!--
         End Some fun facts
 		==================================== -->
 
-		<!--
+  <!--
 		Sponsorship
 		==================================== -->
 
-		<section id="sponsors" class="sponsors">
-			<div class="container">
+  <section id="sponsors" class="sponsors">
+    <div class="container">
 
-				<div class="sec-title text-center fadeInUp animated">
-					<h2>Sponsors</h2>
-					<p class="lead mt-20">
-						<strong> Interested in sponsoring GrizzHacks 5?
-							<a href="mailto: sponsorship@grizzhacks.com" class="sponsor"> Reach out to us </a>
-						</strong>
-					</p>
-				</div>
+      <div class="sec-title text-center fadeInUp animated">
+        <h2>Sponsors</h2>
+        <p class="lead mt-20">
+          <strong> Interested in sponsoring GrizzHacks 5?
+            <a href="mailto: sponsorship@grizzhacks.com" class="sponsor"> Reach out to us </a>
+          </strong>
+        </p>
+      </div>
 
-				<div class="sec-title text-center fadeInUp animated">
-					<h2>Partners</h2>
-					<div class="row mt-20">
-						<div class="col-sm">
-							<img src="img/ousecs.png" class="img-fluid img-max-size" alt="OUSECS Logo" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+      <div class="sec-title text-center fadeInUp animated">
+        <h2>Partners</h2>
+        <div class="row mt-20">
+          <div class="col-sm">
+            <img src="img/ousecs.png" class="img-fluid img-max-size" alt="OUSECS Logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-		<!--
+  <!--
 		End Sponsorship
 		==================================== -->
 
-		<!--
+  <!--
         Contact Us
         ==================================== -->
 
-		<section id="contact" class="contact">
-			<div class="container">
-				<div class="row mb50">
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="row mb50">
 
-					<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
-						<h2>Contact Us! Please, we miss you too :D </h2>
-						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-					</div>
+        <div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+          <h2>Contact Us! Please, we miss you too :D </h2>
+          <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+        </div>
 
-					<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
-						<p>
-							Join us for 24 straight hours of hacking from Saturday,
-							September 19th at 10 AM to Sunday, September 20th at 4 PM.
-							The competition will take place from the comfort of your home!
-						</p>
-					</div>
+        <div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
+          <p>
+            Join us for 24 straight hours of hacking from Saturday,
+            September 19th at 10 AM to Sunday, September 20th at 4 PM.
+            The competition will take place from the comfort of your home!
+          </p>
+        </div>
 
-					<!-- contact address -->
-					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
-						<div class="contact-address">
-							<h3>Oakland University Engineering Center</h3>
-							<p>115 Library Dr, Rochester,</p>
-							<p>Michigan 49309 United States.</p>
-							<p>(248) 370-2217</p>
-						</div>
-					</div>
-					<!-- end contact address -->
+        <!-- contact address -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
+          <div class="contact-address">
+            <h3>Oakland University Engineering Center</h3>
+            <p>115 Library Dr, Rochester,</p>
+            <p>Michigan 49309 United States.</p>
+            <p>(248) 370-2217</p>
+          </div>
+        </div>
+        <!-- end contact address -->
 
-					<!-- contact form -->
-					<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="contact-form">
-							<h2>What will I need for GrizzHacks?</h2>
-							<p>
-								All you need to bring is your laptop and a passion to build something great.
-								We'll try to supply everything else.
-								Stay tuned to this page and follow us on social media for all the least updates,
-								and see the FAQ's for more information.
-							</p>
-							<h3></br></br> Say Hello </h3>
-							<form action="#" id="contact-form">
-								<div class="input-group name-email">
-									<div class="input-field">
-										<input type="text" name="name" id="name" placeholder="Name" class="form-control">
-									</div>
-									<div class="input-field">
-										<input type="email" name="email" id="email" placeholder="Email" class="form-control">
-									</div>
-								</div>
-								<div class="input-group">
-									<textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
-								</div>
-								<div class="input-group">
-									<input type="submit" id="form-submit" class="pull-right" value="Send message">
-								</div>
-							</form>
-						</div>
-					</div>
-					<!-- end contact form -->
+        <!-- contact form -->
+        <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
+          <div class="contact-form">
+            <h2>What will I need for GrizzHacks?</h2>
+            <p>
+              All you need to bring is your laptop and a passion to build something great.
+              We'll try to supply everything else.
+              Stay tuned to this page and follow us on social media for all the least updates,
+              and see the FAQ's for more information.
+            </p>
+            <h3></br></br> Say Hello </h3>
+            <form action="#" id="contact-form">
+              <div class="input-group name-email">
+                <div class="input-field">
+                  <input type="text" name="name" id="name" placeholder="Name" class="form-control">
+                </div>
+                <div class="input-field">
+                  <input type="email" name="email" id="email" placeholder="Email" class="form-control">
+                </div>
+              </div>
+              <div class="input-group">
+                <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
+              </div>
+              <div class="input-group">
+                <input type="submit" id="form-submit" class="pull-right" value="Send message">
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- end contact form -->
 
-					<!-- footer social links -->
-					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<ul class="footer-social">
-							<li><a href="https://www.twitter.com/Themefisher"><i class="fa fa-twitter fa-2x"></i></a></li>
-							<li><a href="https://www.facebook.com/Themefisher"><i class="fa fa-facebook fa-2x"></i></a></li>
-						</ul>
-					</div>
-					<!-- end footer social links -->
+        <!-- footer social links -->
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="600ms">
+          <ul class="footer-social">
+            <li><a href="https://www.twitter.com/Themefisher"><i class="fa fa-twitter fa-2x"></i></a></li>
+            <li><a href="https://www.facebook.com/Themefisher"><i class="fa fa-facebook fa-2x"></i></a></li>
+          </ul>
+        </div>
+        <!-- end footer social links -->
 
-				</div>
-			</div>
+      </div>
+    </div>
 
-			<!-- Google map -->
-			<div id="map_canvas" class="wow bounceInDown animated" data-wow-duration="500ms"></div>
-			<!-- End Google map -->
+    <!-- Google map -->
+    <div id="map_canvas" class="wow bounceInDown animated" data-wow-duration="500ms"></div>
+    <!-- End Google map -->
 
-		</section>
+  </section>
 
-        <!--
+  <!--
         End Contact Us
         ==================================== -->
 
 
-		<footer id="footer" class="footer">
-			<div class="container">
-				<div class="row">
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row">
 
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
-						<div class="footer-single">
-							<img src="" alt="GrizzHacks">
-							<p>
-								GrizzHacks will bring together the greatest young minds for 24 hours of excitement and technological passion.
-								Compete against your peers and other guests in a two day development challenge!
-								There will also be plenty of time to interact with professional mentors and engineers,
-								meet recruiters, and listen to great tech talks and tutorials from sponsors.
-							</p>
-						</div>
-					</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+          <div class="footer-single">
+            <img src="" alt="GrizzHacks">
+            <p>
+              GrizzHacks will bring together the greatest young minds for 24 hours of excitement and technological passion.
+              Compete against your peers and other guests in a two day development challenge!
+              There will also be plenty of time to interact with professional mentors and engineers,
+              meet recruiters, and listen to great tech talks and tutorials from sponsors.
+            </p>
+          </div>
+        </div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="footer-single">
-							<h6>Subscribe </h6>
-							<form action="#" class="subscribe">
-								<input type="text" name="subscribe" id="subscribe">
-								<input type="submit" value="&#8594;" id="subs">
-							</form>
-							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-						</div>
-					</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+          <div class="footer-single">
+            <h6>Subscribe </h6>
+            <form action="#" class="subscribe">
+              <input type="text" name="subscribe" id="subscribe">
+              <input type="submit" value="&#8594;" id="subs">
+            </form>
+            <p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="footer-single">
-							<h6>Explore</h6>
-							<ul>
-								<li><a href="#">Instagram</a></li>
-								<li><a href="#">Twitter</a></li>
-								<li><a href="#">Facebook</a></li>
-								<li><a href="#">LinkedIn</a></li>
-							</ul>
-						</div>
-					</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+          <div class="footer-single">
+            <h6>Explore</h6>
+            <ul>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-						<div class="footer-single">
-							<h6>Support</h6>
-							<ul>
-								<li><a href="#">Podcast</a></li>
-								<li><a href="#">MLH Site</a></li>
-								<li><a href="#">DevPost</a></li>
-								<li><a href="#">Oakland University</a></li>
-							</ul>
-						</div>
-					</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+          <div class="footer-single">
+            <h6>Support</h6>
+            <ul>
+              <li><a href="#">Podcast</a></li>
+              <li><a href="#">MLH Site</a></li>
+              <li><a href="#">DevPost</a></li>
+              <li><a href="#">Oakland University</a></li>
+            </ul>
+          </div>
+        </div>
 
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="copyright text-center">
-							Copyright © 2020. All rights reserved. Designed & developed by GrizzHacks</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="copyright text-center">
+            Copyright © 2020. All rights reserved. Designed & developed by GrizzHacks</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-		<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+  <a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
 
-		<!-- Essential jQuery Plugins
+  <!-- Essential jQuery Plugins
 		================================================== -->
-		<!-- Main jQuery -->
-        <script src="js/jquery-1.11.1.min.js"></script>
-		<!-- Single Page Nav -->
-        <script src="js/jquery.singlePageNav.min.js"></script>
-		<!-- Twitter Bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
-		<!-- jquery.fancybox.pack -->
-        <script src="js/jquery.fancybox.pack.js"></script>
-		<!-- jquery.mixitup.min -->
-        <script src="js/jquery.mixitup.min.js"></script>
-		<!-- jquery.parallax -->
-        <script src="js/jquery.parallax-1.1.3.js"></script>
-		<!-- jquery.countTo -->
-        <script src="js/jquery-countTo.js"></script>
-		<!-- jquery.appear -->
-        <script src="js/jquery.appear.js"></script>
-		<!-- Contact form validation -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-		<!-- Google Map -->
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-		<!-- jquery easing -->
-        <script src="js/jquery.easing.min.js"></script>
-		<!-- jquery easing -->
-        <script src="js/wow.min.js"></script>
-		<script>
-			var wow = new WOW ({
-				boxClass:     'wow',      // animated element css class (default is wow)
-				animateClass: 'animated', // animation css class (default is animated)
-				offset:       120,          // distance to the element when triggering the animation (default is 0)
-				mobile:       false,       // trigger animations on mobile devices (default is true)
-				live:         true        // act on asynchronously loaded content (default is true)
-			  }
-			);
-			wow.init();
-		</script>
-		<!-- Custom Functions -->
-        <script src="js/custom.js"></script>
+  <!-- Main jQuery -->
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <!-- Single Page Nav -->
+  <script src="js/jquery.singlePageNav.min.js"></script>
+  <!-- Twitter Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- jquery.fancybox.pack -->
+  <script src="js/jquery.fancybox.pack.js"></script>
+  <!-- jquery.mixitup.min -->
+  <script src="js/jquery.mixitup.min.js"></script>
+  <!-- jquery.parallax -->
+  <script src="js/jquery.parallax-1.1.3.js"></script>
+  <!-- jquery.countTo -->
+  <script src="js/jquery-countTo.js"></script>
+  <!-- jquery.appear -->
+  <script src="js/jquery.appear.js"></script>
+  <!-- Contact form validation -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+  <!-- Google Map -->
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <!-- jquery easing -->
+  <script src="js/jquery.easing.min.js"></script>
+  <!-- jquery easing -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    var wow = new WOW({
+      boxClass: 'wow', // animated element css class (default is wow)
+      animateClass: 'animated', // animation css class (default is animated)
+      offset: 120, // distance to the element when triggering the animation (default is 0)
+      mobile: false, // trigger animations on mobile devices (default is true)
+      live: true // act on asynchronously loaded content (default is true)
+    });
+    wow.init();
+  </script>
+  <!-- Custom Functions -->
+  <script src="js/custom.js"></script>
 
-		<script type="text/javascript">
-			$(function(){
-				/* ========================================================================= */
-				/*	Contact Form
-				/* ========================================================================= */
+  <script type="text/javascript">
+    $(function() {
+      /* ========================================================================= */
+      /*	Contact Form
+      /* ========================================================================= */
 
-				$('#contact-form').validate({
-					rules: {
-						name: {
-							required: true,
-							minlength: 2
-						},
-						email: {
-							required: true,
-							email: true
-						},
-						message: {
-							required: true
-						}
-					},
-					messages: {
-						name: {
-							required: "come on, you have a name don't you?",
-							minlength: "your name must consist of at least 2 characters"
-						},
-						email: {
-							required: "no email, no message"
-						},
-						message: {
-							required: "um...yea, you have to write something to send this form.",
-							minlength: "thats all? really?"
-						}
-					},
-					submitHandler: function(form) {
-						$(form).ajaxSubmit({
-							type:"POST",
-							data: $(form).serialize(),
-							url:"process.php",
-							success: function() {
-								$('#contact-form :input').attr('disabled', 'disabled');
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$(this).find(':input').attr('disabled', 'disabled');
-									$(this).find('label').css('cursor','default');
-									$('#success').fadeIn();
-								});
-							},
-							error: function() {
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$('#error').fadeIn();
-								});
-							}
-						});
-					}
-				});
-			});
-		</script>
-    </body>
+      $('#contact-form').validate({
+        rules: {
+          name: {
+            required: true,
+            minlength: 2
+          },
+          email: {
+            required: true,
+            email: true
+          },
+          message: {
+            required: true
+          }
+        },
+        messages: {
+          name: {
+            required: "come on, you have a name don't you?",
+            minlength: "your name must consist of at least 2 characters"
+          },
+          email: {
+            required: "no email, no message"
+          },
+          message: {
+            required: "um...yea, you have to write something to send this form.",
+            minlength: "thats all? really?"
+          }
+        },
+        submitHandler: function(form) {
+          $(form).ajaxSubmit({
+            type: "POST",
+            data: $(form).serialize(),
+            url: "process.php",
+            success: function() {
+              $('#contact-form :input').attr('disabled', 'disabled');
+              $('#contact-form').fadeTo("slow", 0.15, function() {
+                $(this).find(':input').attr('disabled', 'disabled');
+                $(this).find('label').css('cursor', 'default');
+                $('#success').fadeIn();
+              });
+            },
+            error: function() {
+              $('#contact-form').fadeTo("slow", 0.15, function() {
+                $('#error').fadeIn();
+              });
+            }
+          });
+        }
+      });
+    });
+  </script>
+</body>
+
 </html>
