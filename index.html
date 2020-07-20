@@ -40,6 +40,8 @@
   <link rel="stylesheet" href="css/main.css">
   <!-- media-queries -->
   <link rel="stylesheet" href="css/media-queries.css">
+  <!-- Pageclip -->
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
   <!-- Modernizer Script for old Browsers -->
   <script src="js/modernizr-2.6.2.min.js"></script>
@@ -813,16 +815,8 @@
       <div class="row mb50">
 
         <div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
-          <h2>Contact Us! Please, we miss you too :D </h2>
+          <h2> Contact Us </h2>
           <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-        </div>
-
-        <div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
-          <p>
-            Join us for 24 straight hours of hacking from Saturday,
-            September 19th at 10 AM to Sunday, September 20th at 4 PM.
-            The competition will take place from the comfort of your home!
-          </p>
         </div>
 
         <!-- contact address -->
@@ -839,15 +833,8 @@
         <!-- contact form -->
         <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
           <div class="contact-form">
-            <h2>What will I need for GrizzHacks?</h2>
-            <p>
-              All you need to bring is your laptop and a passion to build something great.
-              We'll try to supply everything else.
-              Stay tuned to this page and follow us on social media for all the least updates,
-              and see the FAQ's for more information.
-            </p>
-            <h3></br></br> Say Hello </h3>
-            <form action="#" id="contact-form">
+            <h3> Say Hello </h3>
+            <!-- <form action="#" id="contact-form">
               <div class="input-group name-email">
                 <div class="input-field">
                   <input type="text" name="name" id="name" placeholder="Name" class="form-control">
@@ -862,6 +849,24 @@
               <div class="input-group">
                 <input type="submit" id="form-submit" class="pull-right" value="Send message">
               </div>
+            </form> -->
+            <form action="https://send.pageclip.co/MmgLy2A6a8mMWPHTDSFgg3Doa2uetwBe/Contact" class="pageclip-form" method="post">
+              <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+              <div class="input-group name-email">
+                <div class="input-field">
+                  <input type="text" name="name" id="name" placeholder="Name" class="form-control"/>
+                </div>
+                <div class="input-field">
+                  <input type="email" name="email" id="email" placeholder="Email" class="form-control"/>
+                </div>
+              </div>
+              <div class="input-group">
+                <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
+              </div>
+              <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+              <button type="submit" class="pageclip-form__submit">
+                <span>Send</span>
+              </button>
             </form>
           </div>
         </div>
@@ -995,6 +1000,7 @@
   <!-- Custom Functions -->
   <script src="js/custom.js"></script>
 
+<!-- 
   <script type="text/javascript">
     $(function() {
       /* ========================================================================= */
@@ -1050,7 +1056,11 @@
         }
       });
     });
-  </script>
+  </script> -->
+
+<!-- Pageclip -->
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
 </body>
 
 </html>
