@@ -19,11 +19,11 @@ The site uses fontawesome icons for the social media icons, and google fonts bec
 -----------------------------------------------------------------------------------------------------
 ### Major Things that need to be done
 - [ ] Change the colors to match the GH5 color pallete
-- [ ] Redesign the team/contact/registration sections
-- [ ] Include the registration link (Google Form vs Typeform vs another)
-- [ ] Add text for General Info Section
-- [ ] Build the Contact Us section
-- [ ] Add all of the team organizers to the team advisors sections
-- [ ] Add the sponsorship section
+- [X] Redesign the team/contact/registration sections
+- [X] Include the registration link (Google Form vs Typeform vs another)
+- [X] Add text for General Info Section
+- [X] Build the Contact Us section
+- [X] Add all of the team organizers to the team advisors sections
+- [X] Add the sponsorship section
 - [ ] Thinking about adding the videos from our meeting with Roop Raj from Fox News
 - [ ] Thinking about adding a link for hackers to get access to tutorials, whether our own or from somewhere else

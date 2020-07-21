@@ -30,16 +30,18 @@
 		================================================== -->
   <!-- Fontawesome Icon font -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
-  <!-- Twitter Bootstrap css -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- jquery.fancybox  -->
   <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <!-- Twitter Bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- animate -->
   <link rel="stylesheet" href="css/animate.css">
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/main.css">
   <!-- media-queries -->
   <link rel="stylesheet" href="css/media-queries.css">
+  <!-- Pageclip -->
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
   <!-- Modernizer Script for old Browsers -->
   <script src="js/modernizr-2.6.2.min.js"></script>
@@ -81,12 +83,13 @@
       </div>
 
       <!-- main nav -->
+      <!-- If we want to navigate to an external site, add the class `external` -->
       <nav class="collapse navbar-collapse navbar-right" role="navigation">
         <ul id="nav" class="nav navbar-nav">
           <li class="current"><a href="#body">Home</a></li>
-          <li><a href="#features">Register</a></li>
           <li><a href="#team">Team</a></li>
-          <li><a href="http://google.com">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="external" href="https://docs.google.com/forms/d/e/1FAIpQLSf6XyIS4z3q3rt7B_tzql-Icl8O6YEU5D-p9PRm0C2EYkGS_w/viewform">Register</a></li>
         </ul>
       </nav>
       <!-- /main nav -->
@@ -119,7 +122,7 @@
         <div class="item active backgroundimage" style="">
           <div class="carousel-caption">
             <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated"><span> GrizzHacks 5 is here</span>!</h2>
-            <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/innovative</span> Student-run hackathon.</h3>
+            <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/innovative</span> student-run hackathon.</h3>
             <p data-wow-duration="1000ms" class="wow slideInRight animated">GrizzHacks 5 is going virtual!
               Get ready for an incredible weekend full of learning, building and innovating on September 18th-20th.</p>
 
@@ -237,7 +240,10 @@
 					
 					<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
 						<p>Join us for 36 straight hours of hacking from Friday, September 18th to Sunday, September 20th. The competition will take place from the comfort of your home!</p>
-					</div>
+          </div>
+          
+          <div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
+						<p>Interested in attending? <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6XyIS4z3q3rt7B_tzql-Icl8O6YEU5D-p9PRm0C2EYkGS_w/viewform" class="a-alternate">Register now!</a></p>
 					
 				</div>
 			</div>
@@ -737,7 +743,7 @@
           <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
             <div class="counters-item">
               <i class="fa fa-users fa-3x"></i>
-              <strong data-to="24">0</strong>
+              <strong data-to="36">0</strong>
               <!-- Set Your Number here. i,e. data-to="56" -->
               <p> Hours </p>
             </div>
@@ -745,15 +751,15 @@
           <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
             <div class="counters-item">
               <i class="fa fa-users fa-3x"></i>
-              <strong data-to="0">0</strong>
+              <strong data-to="0.01">+0</strong>
               <!-- Set Your Number here. i,e. data-to="56" -->
-              <p> Cost </p>
+              <p> Dollars to attend </p>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
             <div class="counters-item">
               <i class="fa fa-trophy fa-3x"></i>
-              <strong data-to="6000">0</strong>
+              <strong data-to="5000">0</strong>
               <!-- Set Your Number here. i,e. data-to="56" -->
               <p> Dollars in Prizes </p>
             </div>
@@ -809,16 +815,8 @@
       <div class="row mb50">
 
         <div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
-          <h2>Contact Us! Please, we miss you too :D </h2>
+          <h2> Contact Us </h2>
           <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-        </div>
-
-        <div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
-          <p>
-            Join us for 24 straight hours of hacking from Saturday,
-            September 19th at 10 AM to Sunday, September 20th at 4 PM.
-            The competition will take place from the comfort of your home!
-          </p>
         </div>
 
         <!-- contact address -->
@@ -835,42 +833,30 @@
         <!-- contact form -->
         <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
           <div class="contact-form">
-            <h2>What will I need for GrizzHacks?</h2>
-            <p>
-              All you need to bring is your laptop and a passion to build something great.
-              We'll try to supply everything else.
-              Stay tuned to this page and follow us on social media for all the least updates,
-              and see the FAQ's for more information.
-            </p>
-            <h3></br></br> Say Hello </h3>
-            <form action="#" id="contact-form">
+            <h3> Send Us A Message </h3>
+            <form action="https://send.pageclip.co/MmgLy2A6a8mMWPHTDSFgg3Doa2uetwBe/Contact" method="post">
+               <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
               <div class="input-group name-email">
                 <div class="input-field">
-                  <input type="text" name="name" id="name" placeholder="Name" class="form-control">
+                  <input type="text" name="name" id="name" placeholder="Name" class="form-control" required/>
                 </div>
                 <div class="input-field">
-                  <input type="email" name="email" id="email" placeholder="Email" class="form-control">
+                  <input type="text" name="subject" id="subject" placeholder="Subject" class="form-control" required/>
+                </div>
+                <div class="input-field">
+                  <input type="email" name="email" id="email" placeholder="Email Address" class="form-control" required/>
                 </div>
               </div>
               <div class="input-group">
-                <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
+                <textarea name="message" id="message" placeholder="Message" class="form-control" required></textarea>
               </div>
-              <div class="input-group">
-                <input type="submit" id="form-submit" class="pull-right" value="Send message">
-              </div>
-            </form>
+              <button type="submit" class="btn btn-primary">
+                <span>Send</span>
+              </button>           
+             </form>
           </div>
         </div>
         <!-- end contact form -->
-
-        <!-- footer social links -->
-        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="600ms">
-          <ul class="footer-social">
-            <li><a href="https://www.twitter.com/Themefisher"><i class="fa fa-twitter fa-2x"></i></a></li>
-            <li><a href="https://www.facebook.com/Themefisher"><i class="fa fa-facebook fa-2x"></i></a></li>
-          </ul>
-        </div>
-        <!-- end footer social links -->
 
       </div>
     </div>
@@ -892,24 +878,27 @@
 
         <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
           <div class="footer-single">
-            <img src="" alt="GrizzHacks">
             <p>
-              GrizzHacks will bring together the greatest young minds for 24 hours of excitement and technological passion.
-              Compete against your peers and other guests in a two day development challenge!
-              There will also be plenty of time to interact with professional mentors and engineers,
-              meet recruiters, and listen to great tech talks and tutorials from sponsors.
+              GrizzHacks 5 will bring together the greatest young minds for 36 hours of excitement and technological passion.
+              Compete against fellow students and recent graduates in a two day development challenge!
+              There will be time to interact with professional mentors and engineers,
+              meet recruiters, and listen to great tech talks from our sponsors.
             </p>
           </div>
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
           <div class="footer-single">
-            <h6>Subscribe </h6>
-            <form action="#" class="subscribe">
-              <input type="text" name="subscribe" id="subscribe">
-              <input type="submit" value="&#8594;" id="subs">
+            <h6> Mailing List </h6>
+            <form action="https://send.pageclip.co/MmgLy2A6a8mMWPHTDSFgg3Doa2uetwBe/Mailing_List" method="post" class="subscribe">
+              <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+              <input type="email" name="email" id="subscribe"/>
+              <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+              <button type="submit" class="pageclip-form__submit" id="subs">
+                <span value="&#8594;"> </span>
+              </button>
             </form>
-            <p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p> Submit a valid email address to be added to our mailing list </p>
           </div>
         </div>
 
@@ -917,6 +906,7 @@
           <div class="footer-single">
             <h6>Explore</h6>
             <ul>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf6XyIS4z3q3rt7B_tzql-Icl8O6YEU5D-p9PRm0C2EYkGS_w/viewform">Register</a></li>
               <li><a href="#">Instagram</a></li>
               <li><a href="#">Twitter</a></li>
               <li><a href="#">Facebook</a></li>
@@ -990,6 +980,7 @@
   <!-- Custom Functions -->
   <script src="js/custom.js"></script>
 
+<!-- 
   <script type="text/javascript">
     $(function() {
       /* ========================================================================= */
@@ -1045,7 +1036,11 @@
         }
       });
     });
-  </script>
+  </script> -->
+
+<!-- Pageclip -->
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
 </body>
 
 </html>
