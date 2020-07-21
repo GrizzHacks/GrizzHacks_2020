@@ -32,9 +32,9 @@ $(document).ready(function(){
 	
     $(window).scroll(function () {
         if ($(window).scrollTop() > 400) {
-            $("#navigation").css("background-color", "#449DD1");
+            $("#navigation").css("background-color", "#74758a");
         } else {
-            $("#navigation").css("background-color", "#449DD1");
+            $("#navigation").css("background-color", "transparent");
         }
     });
 	
@@ -119,7 +119,7 @@ $(document).ready(function(){
 
 // ==========  START GOOGLE MAP ========== //
 function initialize() {
-    var myLatLng = new google.maps.LatLng(22.402789, 91.822156);
+    var myLatLng = new google.maps.LatLng(42.671752, -83.214982);
 
     var mapOptions = {
         zoom: 14,

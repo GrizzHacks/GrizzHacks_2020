@@ -180,7 +180,7 @@ body{min-height:200vh;}
 .navbar-nav li a:focus,
 .navbar-nav li a:hover {
 	background-color: transparent;
-	border-top: 1px solid #0A1172;
+	border-top: 1px solid #74758a;
 	color: #fff;
 }
 
