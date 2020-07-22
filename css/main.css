@@ -30,6 +30,10 @@ a {
           transition: all .3s ease-in 0s;
 }
 
+.a-alternate {
+  color: #5b646e;
+}
+
 iframe {
   border: 0;
 }
@@ -707,6 +711,9 @@ width: 100%;
 Contact Us
 ==========================================*/
 
+.icon-sizing {
+  max-width: 50%;
+}
 
 .footer {
 background-color: #0A1172;
@@ -715,7 +722,7 @@ color: #fff;
 }
 
 .footer a:hover {
-color: #062033;
+  color: #6CB670;
 }
 
 .footer h6 {
