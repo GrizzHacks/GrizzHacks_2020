@@ -34,6 +34,13 @@ a {
   color: #5b646e;
 }
 
+.a-nav-alternate {
+  color: #fff;
+}
+
+.a-nav-alternate:hover {
+  color: #0A1172 !important;
+}
 iframe {
   border: 0;
 }
@@ -354,8 +361,12 @@ font-weight: 600;
 margin-bottom: 25px;
 }
 
-
-
+/*=========================================
+FAQ
+==========================================*/
+.marginal {
+  margin: 0.5em !important
+}
 
 /*=========================================
 Our Works
