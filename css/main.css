@@ -368,6 +368,27 @@ FAQ
   margin: 0.5em !important
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.flex-box-item {
+  width: 50%;
+  margin: 1em;
+}
+
+.q-text {
+  margin-bottom: 0.5em;
+  color: rgb(68, 157, 209);
+}
+
 /*=========================================
 Our Works
 ==========================================*/
