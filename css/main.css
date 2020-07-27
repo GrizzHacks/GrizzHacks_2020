@@ -23,11 +23,11 @@ figure, p {
 
 a {
 
-  -webkit-transition: all .3s ease-in 0s;
-     -moz-transition: all .3s ease-in 0s;
-      -ms-transition: all .3s ease-in 0s;
-       -o-transition: all .3s ease-in 0s;
-          transition: all .3s ease-in 0s;
+  -webkit-transition: all .3s ease-in 1s;
+     -moz-transition: all .3s ease-in 1s;
+      -ms-transition: all .3s ease-in 1s;
+       -o-transition: all .3s ease-in 1s;
+          transition: all .3s ease-in 1s;
 }
 
 .a-alternate {
@@ -253,7 +253,7 @@ font-weight: 300;
 
 .carousel-caption p:before,
 .carousel-caption p:after {
-color: #0A1172;
+color: rgba(255, 255, 255, 0.3);
 content: "___";
 position: relative;
 top: -8px;
@@ -722,8 +722,12 @@ text-align: right;
 width: 150px;
 }
 
-.footer-social {
+/*=========================================
+Footer
+==========================================*/
+.footer-social ul a{
 margin-top: 17px;
+color: white;
 }
 
 .footer-social li a {
@@ -748,9 +752,10 @@ Contact Us
 }
 
 .footer {
-background-color: #0A1172;
+background-color: #3F4BEE;
 border-top: 5px solid #062033;
-color: #fff;
+color: #ffffff;
+text-decoration-color: transparent;
 }
 
 .footer a:hover {
@@ -770,6 +775,7 @@ line-height: 24px;
 
 .footer-single .subscribe {
 margin-bottom: 15px;
+color: white;
 position: relative;
 }
 
@@ -793,17 +799,21 @@ top: 6px;
 
 .footer-single {
 line-height: 24px;
+color: white;
 }
 
 .footer-single ul {
+  color: white;
 }
 
-.footer-single li {
+.footer-single li a{
 line-height: 32px;
+color: white;
 }
 
 .footer-single p i {
 margin: 0 10px;
+color: white;
 }
 
 .credit a {
