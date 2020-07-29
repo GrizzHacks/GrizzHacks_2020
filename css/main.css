@@ -13,7 +13,7 @@ body {
 ol,
 ul {
   margin: 0.25;
-  padding: 0.75;
+  padding: 0;
   list-style: none;
 }
 
@@ -41,6 +41,14 @@ a {
   color: white;
 }
 
+.a-alternate-dark {
+  color: #262626;
+}
+
+.a-alternate-dark:hover {
+  color: #337ab7 !important;
+}
+
 .a-nav-alternate {
   color: #fff;
 }
@@ -60,12 +68,8 @@ iframe {
   content: "";
   display: table;
   clear: both;
-  margin: 20px;
 }
 
-.create-col {
-  margin: 20px;
-}
 .column {
   float: left;
   width: 50%;
@@ -237,7 +241,7 @@ Slider
 ==========================================*/
 
 #slider {
-  padding: 0;
+  padding: 20px;
 }
 
 #slider .carousel-inner .item {
@@ -247,6 +251,7 @@ Slider
 .backgroundimage {
   background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9)),
     url("../img/building.jpg");
+    padding: 10px;
 }
 
 .carousel-caption {
@@ -256,22 +261,26 @@ Slider
 .carousel-caption h2 {
   font-size: 62px;
   font-weight: 300;
+  padding: 10px;
 }
 
 .carousel-caption h2 span {
   font-weight: 800;
+  padding: 10px;
 }
 
 .carousel-caption h3 {
   font-size: 48px;
   font-weight: 300;
   margin: 6px 0 20px;
+  padding: 10px;
 }
 
 .carousel-caption p {
   color: #fff;
   font-size: 18px;
   font-weight: 300;
+  padding: 10px;
 }
 
 .carousel-caption p:before,
