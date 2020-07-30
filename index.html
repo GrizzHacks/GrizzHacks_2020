@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html lang="en" class="no-js">
-<!--<![endif]-->
 
 <head>
   <!-- meta charec set -->
@@ -16,18 +11,12 @@
   <!-- Meta Description -->
   <meta name="description" content="Hackathon thru MLH">
   <meta name="keywords" content="Student-run Hackathon at Oakland Univeristy">
-  <meta name="author" content="Jasvant Dosanjh">
+  <meta name="author" content="Team at GrizzHacks">
   <!-- Mobile Specific Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="js/nav-helper.js"></script>
-
-  <!-- Google Font -->
-
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-
   <!-- CSS
-		================================================== -->
+  ================================================== -->
   <!-- Fontawesome Icon font -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <!-- jquery.fancybox  -->
@@ -40,25 +29,10 @@
   <link rel="stylesheet" href="css/main.css">
   <!-- media-queries -->
   <link rel="stylesheet" href="css/media-queries.css">
-  <!-- Pageclip -->
-  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
-  <!-- Modernizer Script for old Browsers -->
-  <script src="js/modernizr-2.6.2.min.js"></script>
-  <script>
-    $(window).scroll(function() {
-      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
-    });
-  </script>
 </head>
 
 <body id="body">
-
-  <!-- preloader
-  <div id="preloader">
-    <img src="img/preloader.gif" alt="Preloader">
-  </div>
-  end preloader -->
 
   <!--
         Fixed Navigation
@@ -72,14 +46,6 @@
           <i class="fa fa-bars fa-2x"></i>
         </button>
         <!-- /responsive nav button -->
-
-        <!-- logo -->
-        <!-- <a class="navbar-brand" href="#body">
-						<h1 id="logo">
-							<img src="img/logo.png" width="50px" alt="GrizzHacks">
-						</h1>
-					</a> -->
-        <!-- /logo -->
       </div>
 
       <!-- main nav -->
@@ -100,8 +66,6 @@
   <!--
         End Fixed Navigation
         ==================================== -->
-
-
 
   <!--
         Home Slider
@@ -523,7 +487,6 @@
         End Meet Our Team
         ==================================== -->
 
-
   <!--
         Start Meet Our Advisors
         ==================================== -->
@@ -663,11 +626,6 @@
             End Meet Our Advisors
             ==================================== -->
 
-
-
-
-
-
   <!--
         Some fun facts
         ==================================== -->
@@ -740,6 +698,11 @@
 
       <div class="sec-title text-center fadeInUp animated">
         <h2>Sponsors</h2>
+        <div class="row mt-20">
+          <div class="col-sm">
+            <img src="img/sponsors/Dynatrace_Logo_RGB_CPH_512x92px.png" class="img-fluid img-max-size img-large" alt="Dynatrace Logo" />
+          </div>
+        </div>
         <p class="lead mt-20">
           <strong> Interested in sponsoring GrizzHacks 5?
             <a href="mailto: sponsorship@grizzhacks.com" class="sponsor"> Reach out to us </a>
@@ -751,7 +714,7 @@
         <h2>Partners</h2>
         <div class="row mt-20">
           <div class="col-sm">
-            <img src="img/ousecs.png" class="img-fluid img-max-size" alt="OUSECS Logo" />
+            <img src="img/sponsors/partners/ousecs.png" class="img-fluid img-max-size" alt="OUSECS Logo" />
           </div>
         </div>
       </div>
@@ -826,8 +789,6 @@
   <!--
         End Contact Us
         ==================================== -->
-
-
   <footer id="footer" class="footer">
     <div class="container">
       <div class="row">
@@ -935,67 +896,24 @@
   </script>
   <!-- Custom Functions -->
   <script src="js/custom.js"></script>
-
-<!-- 
-  <script type="text/javascript">
-    $(function() {
-      /* ========================================================================= */
-      /*	Contact Form
-      /* ========================================================================= */
-
-      $('#contact-form').validate({
-        rules: {
-          name: {
-            required: true,
-            minlength: 2
-          },
-          email: {
-            required: true,
-            email: true
-          },
-          message: {
-            required: true
-          }
-        },
-        messages: {
-          name: {
-            required: "come on, you have a name don't you?",
-            minlength: "your name must consist of at least 2 characters"
-          },
-          email: {
-            required: "no email, no message"
-          },
-          message: {
-            required: "um...yea, you have to write something to send this form.",
-            minlength: "thats all? really?"
-          }
-        },
-        submitHandler: function(form) {
-          $(form).ajaxSubmit({
-            type: "POST",
-            data: $(form).serialize(),
-            url: "process.php",
-            success: function() {
-              $('#contact-form :input').attr('disabled', 'disabled');
-              $('#contact-form').fadeTo("slow", 0.15, function() {
-                $(this).find(':input').attr('disabled', 'disabled');
-                $(this).find('label').css('cursor', 'default');
-                $('#success').fadeIn();
-              });
-            },
-            error: function() {
-              $('#contact-form').fadeTo("slow", 0.15, function() {
-                $('#error').fadeIn();
-              });
-            }
-          });
-        }
-      });
-    });
-  </script> -->
-
 <!-- Pageclip -->
 <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+<script src="js/nav-helper.js"></script>
+
+<!-- Google Font -->
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+<!-- Pageclip -->
+<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
+<!-- Modernizer Script for old Browsers -->
+<script src="js/modernizr-2.6.2.min.js"></script>
+<script>
+  $(window).scroll(function() {
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+  });
+</script>
 
 </body>
 
