@@ -679,7 +679,20 @@ Sponsorship
 }
 
 .img-large {
-  width: 30em;
+  width: 40em;
+}
+
+.img-max-mid-size {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.img-medium {
+  width: 20em;
+}
+
+.img-medium-alternative {
+  width: 15em;
 }
 
 /*=========================================
