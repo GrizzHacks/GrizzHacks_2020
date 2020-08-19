@@ -3,16 +3,11 @@
 /* =================================== */
 
 body {
-  background-color: #fff;
-  font-family: "Open Sans", sans-serif;
-  line-height: 21px;
-  font-size: 13px;
-  color: #262626;
+
 }
 
 ol,
 ul {
-  margin: 0.25;
   padding: 0;
   list-style: none;
 }
@@ -198,7 +193,7 @@ Header
 ==========================================*/
 body {
   min-height: 200vh;
-  padding: 20px;
+
 }
 .navbar-default {
   transition: 500ms ease;
@@ -705,7 +700,7 @@ Sponsorship
     width: 100%;
     height: 100%;
   }
-  
+
   .img-medium {
     width: 20%;
     height: 20%;
