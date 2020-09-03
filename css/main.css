@@ -693,10 +693,6 @@ Sponsorship
   width: 20%;
 }
 
-/* .littleCaesars {
-  width: 75%;
-} */
-
 /* Mobile-first design */
 @media only screen and (min-width: 768px) {
 
@@ -713,6 +709,7 @@ Sponsorship
   .littleCaesars {
     width: 12% !important;
   }
+
 }
 
 /* .img-max-size {
